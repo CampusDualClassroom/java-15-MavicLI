@@ -41,10 +41,12 @@ public abstract class Merchandise {
 	public abstract Object getSpecificData();
 
 	public String getName() {
+
 		return name;
 	}
 
 	public void setName(String name) {
+
 		this.name = name;
 	}
 
@@ -53,10 +55,12 @@ public abstract class Merchandise {
 	}
 
 	public void setUniqueId(String uniqueId) {
+
 		this.uniqueId = uniqueId;
 	}
 
 	public String getResponsibleId() {
+
 		return responsibleId;
 	}
 
